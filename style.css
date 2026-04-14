@@ -253,7 +253,7 @@ hr.divider {
 
 .marina-visual {
   aspect-ratio: 4/5;
-  background: var(--navy);
+  background: var(--navy) url('marina.jpg') center center / cover no-repeat;
   position: relative;
   overflow: hidden;
   display: flex; align-items: center; justify-content: center;
@@ -394,7 +394,7 @@ hr.divider {
 }
 
 .charter-visual {
-  background: var(--navy2);
+  background: var(--navy2) url('agora.jpg') center center / cover no-repeat;
   display: flex; align-items: center; justify-content: center;
   min-height: 300px;
   position: relative;
