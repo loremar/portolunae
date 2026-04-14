@@ -85,12 +85,10 @@
       <h2 class="section-title">Foce del Magra,<br>porta sul Mediterraneo</h2>
       <p class="section-text">La posizione è una delle più privilegiate della costa ligure: la foce del Magra si apre direttamente sul golfo, a pochi minuti di navigazione da mete d'eccezione.</p>
       <div class="area-tags">
-        <span class="tag">Cinque Terre</span>
-        <span class="tag">Porto Venere</span>
-        <span class="tag">Alpi Apuane</span>
-        <span class="tag">Isola di Capraia</span>
-        <span class="tag">Corsica</span>
-        <span class="tag">Golfo della Spezia</span>
+        <span class="tag">Porto Venere &nbsp;·&nbsp; ~7 NM</span>
+        <span class="tag">Cinque Terre &nbsp;·&nbsp; ~16 NM</span>
+        <span class="tag">Isola di Capraia &nbsp;·&nbsp; ~55 NM</span>
+        <span class="tag">Corsica (Macinaggio) &nbsp;·&nbsp; ~65 NM</span>
       </div>
     </div>
   </section>
@@ -301,4 +299,15 @@
   <!-- FOOTER -->
   <footer>
     <div class="footer-logo">Porto Lunae</div>
-    <div class="footer-copy">Via Poggio Scafa 20 �
+    <div class="footer-copy">Via Poggio Scafa 20 · 19031 Fiumaretta di Ameglia (SP) · info@portolunae.it</div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => links.classList.toggle('open'));
+    links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+  </script>
+
+</body>
+</html>
